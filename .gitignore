@@ -1,0 +1,5 @@
+#init git bat
+git_init.bat
+.vs
+bin
+obj
