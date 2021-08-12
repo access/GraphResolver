@@ -1,2 +1,2 @@
 ### Graph Resolver:
-![Graph Resolver](/GraphResolver.png "Graph Resolver")
+![Graph Resolver](/GraphResolver.PNG "Graph Resolver")

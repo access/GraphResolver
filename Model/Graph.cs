@@ -115,7 +115,7 @@ namespace GraphResolver.Model
                     if (!hasNotVisited)
                     {
                         if (!endOfBranch)
-                            CleanVisists(currentVertex);
+                            CleanVisits(currentVertex);
                         else
                         {
                             if (!endOfBranch)
@@ -133,12 +133,12 @@ namespace GraphResolver.Model
             }
         }
 
-        private void CleanVisists(Vertex currentVertex)
+        private void CleanVisits(Vertex currentVertex)
         {
             foreach (var vertex in GetToVertexesList(currentVertex))
             {
                 vertex.Visited = false;
-                CleanVisists(vertex);
+                CleanVisits(vertex);
             }
         }
     }

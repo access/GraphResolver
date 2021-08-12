@@ -1,5 +1,6 @@
 #init git bat
 git_init.bat
 .vs
+.gitignore
 bin
 obj
